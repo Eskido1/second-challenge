@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #fff;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #07062c;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    box-shadow: 10px 10px 10px solid rgb(231, 227, 227);
+  
+  }
+  .nav{
+    background-color:#0528b3;
+    height: 100px;
+    width: 100vw;
+    margin-top: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: -250px;
+  }
+   a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    
+  }
+  .logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: -335px;
+
+  }
+  .container .viewContainer{
+    background-color:#0528b3;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .read{
+    width: 35%;
+    height: 90%;
+    background-color: #6759e4;
+    border-radius: 20px;
+  }
+  .read img{
+    width: 510px;
+    height: 510px;
+    display: flex;
+    margin-top: 43px;
+    margin-left: 4px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .read p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    animation: typing 5s steps(30, end), blink-caret  step-end 2s infinite ;
+  }
+@keyframes typing{
+    
+    0%{width: 0;
+    font-size: 0.5rem;
+    opacity: 0;
+  }
+    100%{width: 100%;
+    opacity: 1;
+  }
+}
+  .information{
+    width: 60%;
+    height: 70%;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: transparent;
+    border:2px solid #fff;
+  }
+  .information .names{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    height: 30px;
+    /* background-color: #07062c; */
+  }
+  input{
+    color: #fff;
+    width: 46%;
+    border-radius: 5px;
+    background-color: #07062c;
+  }  
+.information .email{
+  display: flex;
+  width: 95%;
+  height: 30px;
+  border: none;
+  background-color: #07062c;
+  color: #f3f0f0;
+}
+.information .message{
+  width: 98%;
+  height: 85%;
+  border: none;
+  background-color: #07062c;
+  color: #f3f0f0;
+}
